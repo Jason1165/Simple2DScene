@@ -119,7 +119,7 @@ void initialise()
     // Initialise video
     SDL_Init(SDL_INIT_VIDEO);
 
-    g_display_window = SDL_CreateWindow("Hello, Textures!",
+    g_display_window = SDL_CreateWindow("Simple 2D Scene!",
         SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
         WINDOW_WIDTH, WINDOW_HEIGHT,
         SDL_WINDOW_OPENGL);
